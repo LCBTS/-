@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+#include<string>
+int main()
+{
+	string mima = "123456789";
+	cout << mima << endl;
+	string a;
+	cout << "请输入密码" << endl;
+	cin >> a;
+	while (1)
+	{
+		if (a != mima)
+		{
+			cout << "您的密码输入错误" << endl;
+			cout << "再次输入密码" << endl;
+			cin >> a;
+		}
+		 if (a == mima)
+		 {
+
+			 break;
+
+		 }
+
+
+
+	}  
+	cout << "输入正确密码为" << a << endl;
+
+
+
+
+
+
+}
